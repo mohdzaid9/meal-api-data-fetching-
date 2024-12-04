@@ -12,7 +12,7 @@ function meals(){
     })
 }
 
-// another one 
+// function to get chicken api data
 
 function meals2(){
 let ingredients = fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=chicken_breast`)
